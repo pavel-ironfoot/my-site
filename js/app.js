@@ -1,5 +1,5 @@
 const sliderMain = new Swiper('.slider_main',{
-    freeMode: true, // где остановимся листая там оно и остановится
+    freeMode: true, 
     centeredSlides: true,
     mousewheel: true,
     parallax: true,
@@ -16,7 +16,7 @@ const sliderMain = new Swiper('.slider_main',{
 });
 
 const sliderSecond= new Swiper('.slider_second',{
-    freeMode: true, // где остановимся листая там оно и остановится
+    freeMode: true, 
     centeredSlides: true,
     mousewheel: true,
     parallax: true,
