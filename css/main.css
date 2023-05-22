@@ -30,6 +30,7 @@ body, html {
     /* overflow: hidden; */
     line-height: 1.8;
 }
+
 .swiper{
     overflow: visible!important;
 }
@@ -37,7 +38,7 @@ body, html {
     height: 100%;
     transform: rotate(13deg);
     overflow: visible;
-    top: 10vh;
+    top: 20vh;
 }
 .slider__wrapper {
     transition: var(--transition)!important;
@@ -61,10 +62,10 @@ body, html {
 .slider_second {
 	z-index: 0!important;
 	transform: rotate(0deg)!important;
-	top: -90vh;
+	top: -80vh;
 	left: -10vh;
 	opacity: .20;
-    filter:saturate(0) blur(5px);
+    filter:saturate(0) blur(3px);
 }
 .slider_second .slider__item {
     max-height: 100vh;
@@ -120,3 +121,8 @@ body, html {
     transform: translateY(15vh);
     color: rgb(255, 255, 255);
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: rgba(255, 255, 255, 0.0);
+  }
